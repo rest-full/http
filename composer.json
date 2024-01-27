@@ -1,0 +1,27 @@
+{
+    "name": "rest-full/http",
+    "description": "It is the beginning of the server and passes through the middlewares.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "rest-full/error": "1.*",
+        "rest-full/container": "1.*",
+        "rest-full/authentication": "1.*",
+        "rest-full/route": "1.*",
+        "rest-full/filesystem": "1.*"
+    }
+}
